@@ -78,12 +78,13 @@
             <version>1.1.1</version>
         </dependency>
 
-        <!-- Spring for Dependency Injection -->
+        <!-- Dependency Injection -->
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>4.0.1.RELEASE</version>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>4.0-beta</version>
         </dependency>
+
 
         <!-- Logging -->
         <dependency>
